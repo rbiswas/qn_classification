@@ -1,0 +1,16 @@
+{
+  "input_file":"../LabelledData (1).txt",
+  "model_json_file": "model_my.json",
+  "weights":"model_checkpoints.h5",
+  "GLOVE_EMB_PATH": "../glove.42B.300d.txt",
+  "VECTORIZER_PATH": "vectorizer_my.pk",
+  "LABEL_ENCODER_PATH":"label_encoder_my.pk",
+  "MAX_NB_WORDS":20000,
+  "MAX_SEQ_LENGTH":40,
+  "MAX_EMBEDDING_DIM":300,
+  "EPOCHS":15,
+  "BATCH_SIZE":128,
+  "LSTM_OUT":64,
+  "VALIDATION_SPLIT": 0.30,
+  "seed": 7
+}
