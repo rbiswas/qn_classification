@@ -1,8 +1,8 @@
 {
-  "input_file":"../LabelledData (1).txt",
+  "input_file":"labelled_training_data.txt",
   "model_json_file": "model_my.json",
   "weights":"model_checkpoints.h5",
-  "GLOVE_EMB_PATH": "../glove.42B.300d.txt",
+  "GLOVE_EMB_PATH": "glove.42B.300d.txt",
   "VECTORIZER_PATH": "vectorizer_my.pk",
   "LABEL_ENCODER_PATH":"label_encoder_my.pk",
   "MAX_NB_WORDS":20000,
